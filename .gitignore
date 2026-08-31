@@ -1,0 +1,17 @@
+.pio/
+.vscode/
+.idea/
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+.env.*
+secrets.h
+secrets.json
+data/*.db
+*.elf
+*.bin
+*.map
+Thumbs.db
+.DS_Store
