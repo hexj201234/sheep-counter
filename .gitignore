@@ -10,6 +10,8 @@ venv/
 secrets.h
 secrets.json
 data/*.db
+**/data/*.db
+cloud/data/
 *.elf
 *.bin
 *.map

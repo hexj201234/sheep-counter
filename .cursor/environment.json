@@ -1,0 +1,11 @@
+{
+  "name": "sheep-counter",
+  "install": "bash .cursor/install.sh",
+  "terminals": [
+    {
+      "name": "cloud",
+      "command": "cd cloud && SHEEP_TOKEN=\"${SHEEP_TOKEN:-dev-token}\" .venv/bin/uvicorn app:app --host 127.0.0.1 --port 8000 --reload"
+    }
+  ],
+  "ports": [{ "name": "cloud", "port": 8000 }]
+}
